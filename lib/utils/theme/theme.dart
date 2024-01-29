@@ -10,6 +10,9 @@ class CAppTheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor:Colors.white,
     textTheme:CTextTheme.lightTextTheme,
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      
+    )
   );
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
